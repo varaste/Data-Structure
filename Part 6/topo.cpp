@@ -31,6 +31,8 @@ ListNode<Type>::ListNode(Type Default)
     link = 0;
 }
 
+
+
 template <class Type>
 class List {
 friend class ListIterator<Type>;
