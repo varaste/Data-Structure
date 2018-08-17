@@ -9,6 +9,7 @@ struct Pair {
 int vertex, dur;
 };
 
+
 enum Boolean { FALSE, TRUE};
 
 template <class Type> class List;
