@@ -25,6 +25,8 @@ private:
     ListNode(Type);
 };
 
+
+
 template <class Type>
 ListNode<Type>::ListNode(Type Default)
 {
