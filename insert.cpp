@@ -20,6 +20,9 @@ void insert(const Element& e, Element *list, int i)
 // such that the resulting sequence is also ordered. Assume that @e^.^key~\(>=~list[0]^.^key@.
 {
     while (e.getKey() < list[i].getKey())
+	    
+	    
+	    
     {
 	list[i+1] = list[i];
 	i--;
