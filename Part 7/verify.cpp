@@ -25,6 +25,7 @@ void PrintRest(Element* F, int current, const int last, int list)
 
 char compare (int i, int j)
 {
+	
 if (i < j) return '<';
 if (i > j) return '>';
 else return '=';
