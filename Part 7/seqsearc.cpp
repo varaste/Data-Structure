@@ -53,6 +53,8 @@ void Verify1(Element* F1, Element* F2, const int n, const int m)
 void main()
 {
 Element *b = new Element[11];
+	
+	
 Element e;
 e.setKey(2); b[1] = e;
 e.setKey(4); b[2] = e;
