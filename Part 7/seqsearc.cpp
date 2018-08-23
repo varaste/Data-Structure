@@ -11,6 +11,8 @@ public:
    int getKey() const {return key;};
    int other() {return Other;};
 	
+	
+	
    void setKey(int k) { key = k;};
    void setOther(int o) { Other = o;}
    Element(){Other = 0;};
@@ -21,7 +23,9 @@ private:
 
 
 int SeqSearch (Element *f, const int n, const int k)
-// Search a list @f@ with key values @"f"^[1]^.^key@, @...@, @"f"^[n]^.^key@.  Return @i@
+// Search a list @f@ with key values @"f"^[1]^.^key@, @...@, @"f"^[n]
+	
+	.^key@.  Return @i@
 // such that @"f"^^[i]^.^key~==~k@.  If there is no such record, r
 	
 	eturn 0.
