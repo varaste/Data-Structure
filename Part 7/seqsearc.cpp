@@ -21,7 +21,9 @@ private:
 
 int SeqSearch (Element *f, const int n, const int k)
 // Search a list @f@ with key values @"f"^[1]^.^key@, @...@, @"f"^[n]^.^key@.  Return @i@
-// such that @"f"^^[i]^.^key~==~k@.  If there is no such record, return 0.
+// such that @"f"^^[i]^.^key~==~k@.  If there is no such record, r
+	
+	eturn 0.
 {
    int i = n;
    f[0].setKey(k);
