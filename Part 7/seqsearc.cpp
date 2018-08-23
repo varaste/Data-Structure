@@ -6,6 +6,7 @@ enum Boolean {FALSE, TRUE};
 
 
 class Element
+	
 {
 public:
    int getKey() const {return key;};
