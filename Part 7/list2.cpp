@@ -6,9 +6,12 @@ class Element
 public:
    int key;
    int other;
+	
+	
    int link;
    Element(){other = 0;};
 };
+
 
 
 void List2(Element *list, const int n, int first)
