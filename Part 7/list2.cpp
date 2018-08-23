@@ -14,6 +14,7 @@ public:
 
 
 
+
 void List2(Element *list, const int n, int first)
 // Same function as @list1@ except that a second link field @linkb@ is not required
 {
