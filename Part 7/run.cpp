@@ -5,12 +5,7 @@ class Element
 public:
    int key;
    int other;
-   Element(){other = 0;};
-};
-
-
-void runs(Element *r)
-{
+   Element(){
     r = 
     int *key = new int[k]; int *rn = new int[k]; int *l = new int[k];
     for (int i = 0; i < k; i++) 
