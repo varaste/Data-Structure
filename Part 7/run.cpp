@@ -27,11 +27,4 @@ public:
 	f
 	    }
     }
-    delete [] r; delete [] key;
-    delete [] rn; delete [] l;
-}
-
-main()
-{
-
-}
+    delete [] r; dele
