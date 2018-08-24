@@ -21,9 +21,7 @@ public:
 	    if (rq > rmax) return;
 	    else rc = rq;
 	}
-	// output record r[q]
-	WriteRecord(r[q]); LastKey = key[q];
-	// input new record into tree
+	// output reco
 	if (end of input) rn[q] = rmax + 1;
 	else {
 	    ReadRecord(r[q]);
