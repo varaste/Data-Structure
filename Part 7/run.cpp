@@ -24,11 +24,7 @@ public:
 	rq = rn[q];
 
 	// adjust losers
-	for (t = (k+q)/2; t; t /= 2;) // @t@ is initialized to be parent of @q@
-	    if ((rn[l[t]] < rq) || ((rn[l[t]] == rq) && (key[l[t]] < key[q])))
-	    { // @t@ is the winner
-		int temp = q; q = l[t]; l[t] = temp;
-		rq = rn[q];
+	f
 	    }
     }
     delete [] r; delete [] key;
