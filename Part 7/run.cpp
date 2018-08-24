@@ -23,8 +23,4 @@ public:
 	}
 	rq = rn[q];
 
-	// adjust losers
-	f
-	    }
-    }
-    delete [] r; dele
+	// 
