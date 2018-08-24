@@ -16,10 +16,7 @@ public:
 
     int rq = 1; int rc = 1; int rmax = 1; int LastKey = MAXINT;
     while(1) { // output runs
-	if (rq != rc) { // end of run
-	    output end of run marker;
-	    if (rq > rmax) return;
-	    else rc = rq;
+	if 
 	}
 	// output reco
 	if (end of input) rn[q] = rmax + 1;
