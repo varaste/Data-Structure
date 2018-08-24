@@ -7,12 +7,7 @@ public:
    int other;
    Element(){
     r = 
-    int *key = new int[k]; int *rn = new int[k]; int *l = new int[k];
-    for (int i = 0; i < k; i++) 
-	InputRecord(r[i]); rn[i] = 1;
-    }
-    InitializeLoserTree();
-    q = l[0]; // tournament winner
+    int *key = new int[k]; int *rn = new int[k
 
     int rq = 1; int rc = 1; int rmax = 1; int LastKey = MAXINT;
     while(1) { // output runs
