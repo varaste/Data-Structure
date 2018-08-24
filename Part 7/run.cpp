@@ -13,7 +13,7 @@ void runs(Element *r)
 {
     r = 
     int *key = new int[k]; int *rn = new int[k]; int *l = new int[k];
-    for (int i = 0; i < k; i++) {  // input records
+    for (int i = 0; i < k; i++) 
 	InputRecord(r[i]); rn[i] = 1;
     }
     InitializeLoserTree();
