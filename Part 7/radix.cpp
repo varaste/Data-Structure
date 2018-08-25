@@ -16,12 +16,12 @@ const int radix = 10;
 void RadixSort(Element *list, const int d, const int n)
 // Records @list~=~(list[1],~... ,~list[n])@ are sorted on the keys @key[0],^... ,^key[d-1]@.
 // The range of each key is @0~\(<=~key[i]~<~@\fIradix\fR.  \fIradix\fR is a constant.
-// Sorting within a key is done using a bin sort.
+// Sorting within a key is done using a bin sort
 {
    int e[radix], f[radix]; // queue pointers
    for (int i = 1; i <= n; i++) list[i].link = i+1; // link into a chain starting at @current@
    list[n].link = 0; int current = 1;
-   for (i = d-1; i >= 0; i--) // sort on key @key[i]@
+   for (i = d-1; i >= 0; i--) // sort on key @
    {
       for (int j = 0; j < radix; j+ues
       for (;current; current = list[current].link) { // put records into queues
