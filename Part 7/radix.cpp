@@ -23,7 +23,7 @@ void RadixSort(Element *list, const int d, const int n)
    list[n].link = 0; int current = 1;
    for (i = d-1; i >= 0; i--) // sort on key @key[i]@
    {
-      for (int j = 0; j < radix; j++) f[j] = 0; // initialize bins to empty queues
+      for (int j = 0; j < radix; j+ues
       for (;current; current = list[current].link) { // put records into queues
 	 int k = list[current].key[i];
 	 if (f[k] == 0) f[k] = current;
