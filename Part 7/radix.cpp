@@ -28,13 +28,12 @@ void RadixSort(Element *list, const int d, const int n)
 	 int k = list[current].key[i];
 	 if (f[k] == 0) f[k] = current;
 	 else list[e[k]].link = current;
-	 e[k] = current;
-      }
+	 
 
       for (j = 0; f[j] == 0; j++); // find first nonempty queue
       current = f[j]; int last = e[j];
 
-      for (int k = j+1; k < radix; k++) // concatenate remaining queues
+      for (int k = j+1; k < radix; k++) // ctenate remaining queues
 	  if (f[k]) {
 	      list[last].link = f[k];
 	      last = e[k];
