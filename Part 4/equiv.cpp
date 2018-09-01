@@ -17,10 +17,7 @@ typedef ListNode* ListNodePtr;
 ListNode::ListNode(int d)
 {
     data = d;
-    link = 0;
-}
-
-
+    
 
     
     
