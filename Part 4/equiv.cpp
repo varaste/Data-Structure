@@ -21,7 +21,7 @@ ListNode::ListNode(int d)
     
     
     {
-       cerr << "Cannot open input file " << endl;
+       en input file " << endl;
        
 
     int i, j, n;
