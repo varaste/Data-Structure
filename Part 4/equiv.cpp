@@ -21,8 +21,7 @@ ListNode::ListNode(int d)
 }
 
 
-// Input the equivalence pairs and output the equivalence classes
-{
+
     
     
     {
