@@ -12,11 +12,11 @@ private:
 };
 
 typedef ListNode* ListNodePtr;
-// so we can create of pointers using new
+ create of pointers using new
 
 ListNode::ListNode(int d)
 {
-    data = d;
+  
     
 
     
