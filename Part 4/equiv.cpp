@@ -20,7 +20,7 @@ ListNode::ListNode(int d)
     link = 0;
 }
 
-void equivalence()
+
 // Input the equivalence pairs and output the equivalence classes
 {
     
