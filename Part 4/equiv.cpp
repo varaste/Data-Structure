@@ -11,8 +11,7 @@ private:
     ListNode(int);
 };
 
-typedef ListNode* ListNodePtr;
- create of pointers using new
+
 
 ListNode::ListNode(int d)
 {
