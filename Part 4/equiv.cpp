@@ -27,8 +27,7 @@ void equivalence()
     if (!inFile)
     {
        cerr << "Cannot open input file " << endl;
-       return;
-    }
+       
 
     int i, j, n;
     inFile >> n;  // read number of objects
