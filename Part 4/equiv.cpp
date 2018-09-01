@@ -24,7 +24,7 @@ void equivalence()
 // Input the equivalence pairs and output the equivalence classes
 {
     ifstream inFile( "equiv.in", ios::in); // "equiv.in" is the input file
-    if (!inFile)
+    
     {
        cerr << "Cannot open input file " << endl;
        
