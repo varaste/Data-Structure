@@ -12,7 +12,7 @@ private:
 };
 
 typedef ListNode* ListNodePtr;
-// so we can create an array of pointers using new
+// so we can create of pointers using new
 
 ListNode::ListNode(int d)
 {
