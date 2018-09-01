@@ -23,7 +23,7 @@ ListNode::ListNode(int d)
 void equivalence()
 // Input the equivalence pairs and output the equivalence classes
 {
-    ifstream inFile( "equiv.in", ios::in); // "equiv.in" is the input file
+    
     
     {
        cerr << "Cannot open input file " << endl;
