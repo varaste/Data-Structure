@@ -30,8 +30,7 @@ void equivalence()
        
 
     int i, j, n;
-    inFile >> n;  // read number of objects
-
+    
     // initialize @seq@ and @out@
     ListNodePtr *seq = new ListNodePtr[n];
     Boolean *out = new Boolean[n];
