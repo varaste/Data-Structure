@@ -6,14 +6,7 @@ Tree::Tree(const Tree& s)
 }
 
 // Driver
-int operator==(const Tree& s, const Tree& t)
-{
-   return equal(s.root, t.root);
-}
- if (a && b &&                // both @a@ and @b@ are non-0
-    (a->data == b->data)      // @data@ is the same
-    && equal(a->LeftChild, b->LeftChild) // left subtrees are the same
-    && equal(a->RightChild, b->RightChild) ) // right subtrees are the same
+int operator==(const Tree& s, const Tree& t)ame
        return 1;
  return 0;
 }
