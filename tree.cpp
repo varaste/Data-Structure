@@ -9,31 +9,6 @@ class Tree;
 
 class TreeNode {
 friend class Tree;
-friend int eq, TreeNode*);
-private:
-    TreeNode *LeftChild;
-    cha
-    TreeNode(char ch, TreeNode *Lefty, TreeNode *Righty)
-    {
-	data = ch;
-	LeftChild = Lefty;
-	RightChild = Righty;
-    }
-};
-
-class Tree {
-friend int operator==(const Tree&, const Tree&);
-private:
-    TreeNode *root;
-    void inorder(TreeNode *);
-    void preorder(TreeNode *);
-    void postorder(TreeNode *);
-    TreeN
-public:
-    void setup();
-    void inorder();
-    void preorder();
-    void postorder();
     Tree(const Tree&);
     Tree() {root = 0;};
 };
