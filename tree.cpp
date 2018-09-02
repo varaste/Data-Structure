@@ -12,8 +12,7 @@ friend class Tree;
 friend int equal(TreeNode*, TreeNode*);
 private:
     TreeNode *LeftChild;
-    char data;
-    TreeNode *RightChild;566666 0;};
+    cha
     TreeNode(char ch, TreeNode *Lefty, TreeNode *Righty)
     {
 	data = ch;
@@ -29,7 +28,7 @@ private:
     void inorder(TreeNode *);
     void preorder(TreeNode *);
     void postorder(TreeNode *);
-    TreeNode* copy(TreeNode *);
+    TreeN
 public:
     void setup();
     void inorder();
