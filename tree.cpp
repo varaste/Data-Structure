@@ -13,8 +13,7 @@ friend int equal(TreeNode*, TreeNode*);
 private:
     TreeNode *LeftChild;
     char data;
-    TreeNode *RightChild;56666666666666666666666666666666666666
-    TreeNode() {LeftChild = RightChild = 0;};
+    TreeNode *RightChild;566666 0;};
     TreeNode(char ch, TreeNode *Lefty, TreeNode *Righty)
     {
 	data = ch;
