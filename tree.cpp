@@ -2,19 +2,6 @@
 #include <iostream.h>\rder(TreeNode *CurrentNode)
 {\
 Tree::Tree(const Tree& s)
-{
-  root = copy(s.root);
-}
-
-TreeNode* Tree::copy(TreeNode *orignode)
-{
-  if (orignode) {
-      TreeNode *temp = new TreeNode;
-      temp->data = orignode->data;
-      temp->LeftChild = copy(orignode->LeftChild);
-      temp->RightChild = copy(orignode->RightChild);
-      return temp;
-  }
   else return 0;
 }
 
