@@ -9,7 +9,7 @@ class Tree;
 
 class TreeNode {
 friend class Tree;
-friend int equal(TreeNode*, TreeNode*);
+friend int eq, TreeNode*);
 private:
     TreeNode *LeftChild;
     cha
