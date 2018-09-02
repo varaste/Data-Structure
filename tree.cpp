@@ -6,20 +6,6 @@
 enum Boolean { FALSE, TRUE};
 
 class Tree;
-
-class TreeNode {
-friend class Tree;
-    Tree(const Tree&);
-    Tree() {root = 0;};
-};
-
-void Tree::setup()
-{
-    root = new TreeNode('A',0,0);
-    root->LeftChild = new TreeNode('B',0,0);
-    root->LeftChild->LeftChild = new TreeNode('C', 0, 0);
-    root->LeftChild->RightChild = new TreeNode('D', 0, 0);
-    root->LeftChild->LeftChild->LeftChild =
 void Tree::preorder()
 {
    preorder(root);
