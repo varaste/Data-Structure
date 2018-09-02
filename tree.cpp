@@ -44,14 +44,7 @@ void Tree::setup()
     root->LeftChild = new TreeNode('B',0,0);
     root->LeftChild->LeftChild = new TreeNode('C', 0, 0);
     root->LeftChild->RightChild = new TreeNode('D', 0, 0);
-    root->LeftChild->LeftChild->LeftChild = new TreeNode('E', 0, 0);
-}
-
-void Tree::inorder()
-{
-   inorder(root);
-}
-
+    root->LeftChild->LeftChild->LeftChild =
 void Tree::preorder()
 {
    preorder(root);
