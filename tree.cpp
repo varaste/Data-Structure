@@ -1,48 +1,6 @@
 #ifndef _IOSTREAM_H
-#include <iostream.h>
-#define _IOSTREAM_H
-#endif
-
-enum Boolean { FALSE, TRUE};
-
-class Tree;
-void Tree::preorder()
-{
-   preorder(root);
-}
-
-void Tree::postorder()
-{
-   postorder(root);
-}
-
-void Tree::inorder(TreeNode *CurrentNode)
-{
-     if (CurrentNode) {
-	 inorder(CurrentNode->LeftChild);
-	 cout << CurrentNode->data;
-	 inorder(CurrentNode->RightChild);
-     }
-}
-
-void Tree::preorder(TreeNode *CurrentNode)
-{
-     if (CurrentNode) {
-	 cout << CurrentNode->data;
-	 preorder(CurrentNode->LeftChild);
-	 preorder(CurrentNode->RightChild);
-     }
-}
-
-void Tree::postorder(TreeNode *CurrentNode)
-{
-     if (CurrentNode) {
-	 postorder(CurrentNode->LeftChild);
-	 postorder(CurrentNode->RightChild);
-	 cout << CurrentNode->data;
-     }
-}
-
+#include <iostream.h>\rder(TreeNode *CurrentNode)
+{\
 Tree::Tree(const Tree& s)
 {
   root = copy(s.root);
