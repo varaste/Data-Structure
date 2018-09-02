@@ -10,13 +10,6 @@ int operator==(const Tree& s, const Tree& t)
 {
    return equal(s.root, t.root);
 }
-
-// Workhorse
-int equal(TreeNode *a, TreeNode *b)
-/* This function returns 0 if the subtrees at @a@ and @b@ are not
-   equivalent. Otherwise, it will return 1 */
-{
- if ((!a) && (!b)) return 1;  // both @a@ and @b@ are 0
  if (a && b &&                // both @a@ and @b@ are non-0
     (a->data == b->data)      // @data@ is the same
     && equal(a->LeftChild, b->LeftChild) // left subtrees are the same
