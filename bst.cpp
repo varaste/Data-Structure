@@ -5,7 +5,7 @@ template <class Type>
 class Element {
 public:
     Type key;
-};
+};hi;;hnnnnnnnnnnnnnnnnnnnnn
 
 template <class Type>
 class BstNode {
@@ -67,7 +67,10 @@ Element<Type> &x)
 	    C.root = Z->LeftChild; delete Z;
 	    return &x;
 	}
-	else if (i < t->data.key) {
+	else if (i < t->data.key)
+	
+	
+	{
 	    R->LeftChild = t;
 	    R = t; t = t->LeftChild;
 	}
@@ -168,7 +171,7 @@ main()
    cout << "\n" << m.Insert(j);
    m.treeprint();
 BST<int> n, o;
-Element<int> el;
+Element<int> e\
 cout << (m.Split(22, n, o, el))->key << endl;
 n.treeprint();
 o.treeprint();
