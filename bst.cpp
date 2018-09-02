@@ -11,7 +11,13 @@ template <class Type>
 class BstNode {
 friend class BST<Type>;
 public:
-private:
+private:kujpo'/j
+
+
+
+
+
+
    Element<Type> data;
    BstNode *LeftChild, *RightChild;
    void display(int i);
