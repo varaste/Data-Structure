@@ -81,6 +81,9 @@ Element<Type> &x)
     return 0;
 }
 
+
+
+
 template <class Type>
 void BstNode<Type>::treeprint(int l)
 {
