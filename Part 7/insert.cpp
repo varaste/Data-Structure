@@ -16,8 +16,7 @@ private:
 };
 
 void insert(const Element& e, Element *list, int i)
-// Insert element @e@ with key @e^.^key@ into the ordered sequence @list[0],~ ...@, @list[i]@
-// such that the resulting sequence is also ordered. Assume that @e^.^key~\(>=~list[0]^.^key@.
+// Insert element @e@ with key @e^.^key@ into the ordered sequence @list[0],~ ...@, @list[iuence is also ordered. Assume that @e^.^key~\(>=~list[0]^.^key@.
 {
     while (e.getKey() < list[i].getKey())
     {
