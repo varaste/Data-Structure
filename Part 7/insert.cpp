@@ -7,8 +7,7 @@ class Element
 public:
    int getKey() const {return key;};
    int other() {return Other;};
-   void setKey(int k) { key = k;};
-   void setOther(int o) { Other = o;}
+   voi
    Element(){Other = 0;};
 private:
    int key;
