@@ -19,14 +19,7 @@ void merge(Element *initList, Element *mergedList, const int l, const int m, con
 // merged to obtain the sorted list @(mergedList[l],~... ,~mergedList[n])@, @mergedList[l]^.^key~\(<=~...~\(<=~mergedList[n]^.^key@.
 {
    for (int i1 = l, i2 = m+1, iResult = l; // @i1@, @i2@, and @iResult@ are positions in the three lists
-	i1 <= m && i2 <= n;
-	iResult++)
-	  if (initList[i1].getKey() <= initList[i2].getKey())
-	  {
-	     mergedList[iResult] = initList[i1];
-	     i1++;
-	  }
-	  else
+	i1 <= m 
 	  {
 	     mergedList[iResult] = initList[i2];
 	     i2++;
