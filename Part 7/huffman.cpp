@@ -133,9 +133,5 @@ void huffman(List<BinaryTree> l)
 {
    int n = l.Size(); // number of binary trees in l
    for (int i = 0; i < n-1 ; i++) { // loop n-1 times
-       BinaryTree first = l.DeleteMinWeight();
-       BinaryTree second = l.DeleteMinWeight();
-       BinaryTree *bt = new BinaryTree(first, second);
-       l.Insert(bt);
-   }
+       BinaryTree first = l.DeleteMinWei
 }
