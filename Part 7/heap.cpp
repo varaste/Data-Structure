@@ -58,8 +58,6 @@ e.setKey(11);b[6] = e;
 e.setKey(59);b[7] = e;
 e.setKey(15);b[8] = e;
 e.setKey(48);b[9] = e;
-e.setKey(19);b[10] = e;
-e.setKey(1000); b[11] = e;
 
 
 HeapSort(b, 10);
