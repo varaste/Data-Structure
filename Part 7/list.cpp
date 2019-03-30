@@ -8,9 +8,7 @@ public:
    int other;
    int link;
    int linkb;
-   Element(){other = 0;};
-};
-
+   Element(){other = 
 
 void List1(Element *list, const int n, int first)
 // Rearrange the sorted chain @first@ so that the records @list[1],@ @...@, @list[n]@
