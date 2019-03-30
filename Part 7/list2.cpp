@@ -16,7 +16,7 @@ void List2(Element *list, const int n, int first)
 {
     for (int i = 1; i <= n-1; i++)
     // Find correct record to place into @i@th position.  The index of this record must
-    // be @\(>=~i@, as records in positions
+    // be @\(>=~i@, as
     // 1, 2, @...@, @i~-~1@ are already correctly positioned.
     {
        while (first < i) first = list[first].link;
