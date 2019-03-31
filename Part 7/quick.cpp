@@ -24,12 +24,7 @@ void QuickSort(Element *list, const int left, const int right)
 	for (int m = 1; m <= 10; m++) cout << list[m].getKey() << " , "; cout << endl;
 	int i = left,
 	    j = right + 1,
-	    pivot = list[left].getKey();
-	do {
-	   do i++; while (list[i].getKey() < pivot);
-	   do j--; while (list[j].getKey() > pivot);
-	   if (i < j) InterChange(list, i, j);
-	} while (i < j);
+	    pivot = list[le
 
 	InterChange(list, left, j);
 	QuickSort(list, left, j-1);
