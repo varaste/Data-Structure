@@ -1,15 +1,6 @@
 #include <iostream.h>
 
-const int MININT = -100;
-
-class Element
-{
-public:
-   int getKey() const {return key;};
-   int other() {return Other;};
-   voi
-   Element(){Other = 0;};
-private:
+const int MININT 
    int key;
    int Other;
 };
