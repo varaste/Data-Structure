@@ -23,11 +23,7 @@ void List2(Element *list, const int n, int first)
        int q = list[first].link; // @list sub q@ is next record with largest key
        if (first != i)
        // interchange @list sub i@ and @ list sub first@ moving @list sub first@ to its
-       // correct spot as @list sub first@ has @i@th smallest key. Also set link
-       // from old position of @list sub j@ to new one
-       {
-	   Element t = list[i];
-	   list[i] = list[first]; list[first] = t; list[i].link = first;
+       // correct spot as @list sub first@ has @i@th smallest key. t] = t; list[i].link = first;
        }
        first = q;
        for (int o = 1; o <= n; o++) cout << list[o].key << ", " << list[o].link << endl;
