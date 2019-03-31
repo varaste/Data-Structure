@@ -1,15 +1,5 @@
 #include <iostream.h>
 
-
-class Element
-{
-public:
-   int key;
-   int other;
-   int link;
-   int linkb;
-   Element(){other = 
-
 void List1(Element *list, const int n, int first)
 // Rearrange the sorted chain @first@ so that the records @list[1],@ @...@, @list[n]@
 // are in sorted order. Each record has an additional link field @linkb@.
