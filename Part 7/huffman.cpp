@@ -4,12 +4,7 @@ enum Boolean { FALSE, TRUE};
 template <class Type> class List;
 template <class Type> class ListIterator;
 
-template <class Type>
-class ListNode {
-friend class List<Type>;
-friend class ListIterator<Type>;
-private:
-    Type data;
+template <cl
     ListNode *link;
     ListNode(Type);
 };
