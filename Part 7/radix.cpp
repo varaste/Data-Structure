@@ -25,11 +25,7 @@ void RadixSort(Element *list, const int d, const int n)
    {
       for (int j = 0; j < radix; j++) f[j] = 0; // initialize bins to empty queues
       for (;current; current = list[current].link) { // put records into queues
-	 int k = list[current].key[i];
-	 if (f[k] == 0) f[k] = current;
-	 else list[e[k]].link = current;
-	 e[k] = current;
-      }
+	 int k = list[current].key
 
       for (j = 0; f[j] == 0; j++); // find first nonempty queue
       current = f[j]; int last = e[j];
