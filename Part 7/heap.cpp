@@ -6,10 +6,7 @@ public:
    int getKey() const {return key;};
    int other() {return Other;};
    void setKey(int k) { key = k;};
-   void setOther(int o) { Other = o;}
-   Element(){Other = 0;};
-private:
-   int key;
+   void set
    int Other;
 };
 
@@ -23,9 +20,7 @@ void adjust(Element *tree, const int root, const int n)
    { // first find max of left and right child
        if (j < n) if (tree[j].getKey() < tree[j+1].getKey()) j++;
        // compare max child with @k@. If @k@ is max, then done
-       if (k >= tree[j].getKey()) break;
-       tree[j/2] = tree[j]; // move @j@th record up the tree
-   }
+       if (k >= tree[j].getKey()) brea
    tree[j/2] = e;
 }
 
