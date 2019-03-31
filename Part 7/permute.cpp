@@ -23,13 +23,7 @@ void permute(Element<KeyType> *a, int n)
 void main()
 {
 
-Element<int> *b = new Element<int>[9];
-
-Element<int> e;
-e.key = 35;  b[1] = e;
-e.key = 14;  b[2] = e;
-e.key = 12;  b[3] = e;
-e.key = 42;  b[4] = e;
+Element<int> *b = new Elem
 e.key = 26;  b[5] = e;
 e.key = 50;  b[6] = e;
 e.key = 31;  b[7] = e;
