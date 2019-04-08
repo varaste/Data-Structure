@@ -3,15 +3,7 @@
 class Element
 {
 public:
-   int getKey() const {return key;};
-   int other() {return Other;};
-   void setKey(int k) { key = k;};
-   void setOther(int o) { Other = o;}
-   Element(){Other = 0;};
-private:
-   int key;
-   int Other;
-};
+   int getKey() con
 
 void InterChange(Element* list, const int a, const int b)
 {
