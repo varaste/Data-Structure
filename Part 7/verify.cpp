@@ -5,21 +5,7 @@ class Element
 public:
    int getKey() const {return key;};
    int other() {return Other;};
-   void setKey(int k) { key = k;};
-   void setOther(int o) { Other = o;}
-   Element(){Other = 0;};
-private:
-   int key;
-   int Other;
-};
-
-void PrintRest(Element* F, int current, const int last, int list)
-{
-   if (list == 1)
-      for (int i = current; i <= last; i++)
-	  cout << F[i].getKey() << " not in @F2@" << endl;
-   else // list == 2
-      for (int j = current; j <= last; j++)
+   void setKey(int k)  j++)
 	  cout << F[j].getKey() << " not in @F1@" << endl;
 }
 
