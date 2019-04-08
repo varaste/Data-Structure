@@ -7,13 +7,7 @@ void List1(Element *list, const int n, int first)
     int prev = 0;
     for (int current = first; current; current = list[current].link) { // convert @first@ into a doubly linked list
 	list[current].linkb = prev;
-	prev = current;
-    }
-
-    for (int o = 1; o <= n ; o++) cout << list[o].key << ", " << list[o].link << ", " << list[o].linkb << endl;
-    cout << endl;
-
-    for (int i = 1; i <= n-1 ; i++) // move @list sub first@ to position @i@ while
+	prev = cui <= n-1 ; i++) // move @list sub first@ to position @i@ while
     {			    // maintaining the list
 	if (first != i) {
 	    if (list[i].link) list[list[i].link].linkb = first;
