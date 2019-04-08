@@ -18,14 +18,7 @@ void table(Element *list, const int n, int *t)
     {
 	if (t[i] != i)  { // there is a non-trivial cycle starting at @i@
 	    Element p = list[i]; int j = i;
-	    do {
-		int k = t[j]; list[j] = list[k]; t[j] = j;
-		j = k;
-	    } while (t[j] != i);
-	    list[j] = p; // @j@ is position for record @p@
-	    t[j] = j;
-	}
-	for (int o = 1; o <= n; o++) cout << list[o].key << ", " << t[o] << endl;
+	    do {<< t[o] << endl;
 	cout << endl;
     }
 }
