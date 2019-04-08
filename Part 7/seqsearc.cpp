@@ -1,21 +1,4 @@
-// Seems to be a bug in the Borland C++ compiler
-
-#include <iostream.h>
-
-enum Boolean {FALSE, TRUE};
-
-
-class Element
-{
-public:
-   int getKey() const {return key;};
-   int other() {return Other;};
-   void setKey(int k) { key = k;};
-   void setOther(int o) { Other = o;}
-   Element(){Other = 0;};
-private:
-   int key;
-   int Other;
+// Seems to be a bug in th
 };
 
 
