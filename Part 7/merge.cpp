@@ -1,23 +1,6 @@
 #include <iostream.h>
 
 class Element
-{
-public:
-   int getKey() const {return key;};
-   int other() {return Other;};
-   void setKey(int k) { key = k;};
-   void setOther(int o) { Other = o;}
-   Element(){Other = 0;};
-private:
-   int key;
-   int Other;
-};
-
-void merge(Element *initList, Element *mergedList, const int l, const int m, const int n)
-// @(initList[l], ~... ,~initList[m])@ and @(initList[m~+~1],~... ,~initList[n])@ are sorted lists with keys
-// @initList[l]^.^key~\(<=~ ... ~\(<=~initList[m]^.^key@ and @initList[m~+~1]^.^key~\(<=~...~\(<=~initList[n]^.^key@.  These lists are
-// merged to obtain the sorted list @(mergedList[l],~... ,~mergedList[n])@, @mergedList[l]^.^key~\(<=~...~\(<=~mergedList[n]^.^key@.
-{
    for (int i1 = l, i2 = m+1, iResult = l; // @i1@, @i2@, and @iResult@ are positions in the three lists
 	i1 <= m 
 	  {
