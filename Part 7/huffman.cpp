@@ -13,12 +13,6 @@ template <class Type>
 ListNode<Type>::ListNode(Type element)
 {
     data = element;
-    link = 0;
-}
-
-template <class Type>
-class List {
-friend class ListIterator<Type>;
 public:
     List() {first = 0;};
     void Insert(Type);
