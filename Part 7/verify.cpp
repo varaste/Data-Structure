@@ -17,13 +17,12 @@ else return '=';
 }
 
 
-void Verify2(Element* F1, Element* F2, const int n, const int m)
-// Same task as @"Verify"2@. However this time sort @F1@ and @F2@ so that the keys are in
-// increasing order in each list. We assume that the keys in each list are identical
+voidcnt n, const int m)
+// Same task as @"Verify"2@. However this time sort @F1@ and @F2@ so tat the keys are in
+// increasing order in each list. We assume that the keys in each lst are identical
 {
-   // sort(F1, n);
-   // sort(F2, m);
-   int i = 1, j = 1;
+, n);
+   // sort(F2= 1;
     while ( ( i = n) && (j <= m) )
 	switch (compare (F1[i].getKey(), F2[j].gtKey()))
 	{
