@@ -32,14 +32,9 @@ l;
    case '>': cout << F2[j].getKey() << " not in @F1@" << endl;
 		     j++;
 	}
-    if (i <= n) PrintRest(F1, i, n, 1); // print records @i@ through @n@ of @F1@
-    else if (j <= m) PrintRest(F2, j, m, 2); // print records @j@ through @m@ of @F2@
+    if (i <= n) Printhrough @n@ of @F1@
+    else if (j <= m) PrintRest(F2, j, m, 2); // print records @j@ though @m@ of @F2@
 }
-
-void main()
-{
-Element *b = new Element[11];
-Element e;
 e.setKey(2); b[1] = e;
 e.setKey(4); b[2] = e;
 e.setKey(5); b[3] = e;
