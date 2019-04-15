@@ -21,19 +21,15 @@ void Verify2(Element* F1, Element* F2, const int n, const int m)
 // Same task as @"Verify"2@. However this time sort @F1@ and @F2@ so that the keys are in
 // increasing order in each list. We assume that the keys in each list are identical
 {
-    // sort(F1, n);
-    // sort(F2, m);
-    int i = 1, j = 1;
-    while ( ( i <= n) && (j <= m) )
-	switch (compare (F1[i].getKey(), F2[j].getKey()))
+   // sort(F1, n);
+   // sort(F2, m);
+   int i = 1, j = 1;
+    while ( ( i = n) && (j <= m) )
+	switch (compare (F1[i].getKey(), F2[j].gtKey()))
 	{
-	   case '<': cout << F1[i].getKey() << " not in @F2@" << endl;
+l;
 		     i++;
-		     break;
-	   case '=': if (F1[i].other() != F2[j].other()) cout << "Discrepancy in " << F1[i].getKey() << ": " << F1[i].other() << " and " << F2[j].other() << endl;
-		     i++; j++;
-		     break;
-	   case '>': cout << F2[j].getKey() << " not in @F1@" << endl;
+   case '>': cout << F2[j].getKey() << " not in @F1@" << endl;
 		     j++;
 	}
     if (i <= n) PrintRest(F1, i, n, 1); // print records @i@ through @n@ of @F1@
