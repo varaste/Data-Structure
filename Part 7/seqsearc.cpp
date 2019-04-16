@@ -8,16 +8,13 @@ int SeqSearch (Element *f, const int n, const int k)
 {
       f[0].setKey(k);   while (f[i]etKey() != k) i--;
   return i;
-}
-
-void Vconst int m)    Boolean *marked = new Boolean[m];
-    for (int i = 1; i <= m; i++) marked[i] = FALSE;
-    for (i = 1; i <= n; i++) {
-	int j = SeqSearch(F2, m, F1[i].getKey());
-	if (j == 0) cout << F1[i].getKey() << " not in F2 " << endl; // satisfies (1)
-	else {
-	    if (F1[i].other() != F2[j].other()) // satisfies (3)
-		 cout << "Discrepancy in " << F1[i].getKey() << ": "
+} = new Boolean[m];
+    for (int i = 1; i <= m; i++)marked[i] = FALSE;
+    for (i  1; i <= n; i++) {
+	int j = SeqSearch(F2, , F1[i].getKey());
+	if (j == 0) cout << F1[i].getKey() << " not in F2 " << end; // satisfies (1)
+else {
+	cout << "Discrepancy in " << F1[i].getKey() << ": "
 		      << F1[i].other() << " and " << F2[j].other() << endl;
 	    marked[j] = TRUE; // mark the record in F2[j] as being seen
 	}
