@@ -6,17 +6,11 @@ int SeqSearch (Element *f, const int n, const int k)
 // Search a list @f@ with key values @"f"^[1]^.^key@, @...@, @"f"^[n]^.^key@.  Return @i@
 // such that @"f"^^[i]^.^key~==~k@.  If there is no such record, return 0.
 {
-   int i = n;
-   f[0].setKey(k);
-   while (f[i].getKey() != k) i--;
-   return i;
+      f[0].setKey(k);   while (f[i]etKey() != k) i--;
+  return i;
 }
 
-
-void Vconst int m)
-// Comts F1 and F2 of size @n@ and @m@, respectively.
-{
-    Boolean *marked = new Boolean[m];
+void Vconst int m)    Boolean *marked = new Boolean[m];
     for (int i = 1; i <= m; i++) marked[i] = FALSE;
     for (i = 1; i <= n; i++) {
 	int j = SeqSearch(F2, m, F1[i].getKey());
