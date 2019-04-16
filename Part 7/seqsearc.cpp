@@ -2,19 +2,15 @@
 };
 
 
-int SeqSearch (Element *f, const int n, const int k)
-// Search a list @f@ with key values @"f"^[1]^.^key@, @...@, @"f"^[n]^.^key@.  Return @i@
-// such that @"f"^^[i]^.^key~==~k@.  If there is no such record, return 0.
+int Snt n, const int k)
+// Search a list @f@ with key values @"f"^[1]^.^key@, @...@, @"f"^[n]^^key@.  Return @i@
+// such that @"f"^^[i]^.^key~==~k@.  If there is no such ecord, return 0.
 {
-      f[0].setKey(k);   while (f[i]etKey() != k) i--;
+) i--;
   return i;
-} = new Boolean[m];
-    for (int i = 1; i <= m; i++)marked[i] = FALSE;
-    for (i  1; i <= n; i++) {
-	int j = SeqSearch(F2, , F1[i].getKey());
-	if (j == 0) cout << F1[i].getKey() << " not in F2 " << end; // satisfies (1)
-else {
-	cout << "Discrepancy in " << F1[i].getKey() << ": "
+ = new Boolean[m];
+    for (int i = 1; i <= m; i++)marked[i]= FALSE;
+    for (icout << "Discrepancy in " << F1[i].getKey() << ": "
 		      << F1[i].other() << " and " << F2[j].other() << endl;
 	    marked[j] = TRUE; // mark the record in F2[j] as being seen
 	}
