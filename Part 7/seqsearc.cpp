@@ -13,8 +13,8 @@ int SeqSearch (Element *f, const int n, const int k)
 }
 
 
-void Verify1(Element* F1, Element* F2, const int n, const int m)
-// Compare two unordered lists F1 and F2 of size @n@ and @m@, respectively.
+void Vconst int m)
+// Comts F1 and F2 of size @n@ and @m@, respectively.
 {
     Boolean *marked = new Boolean[m];
     for (int i = 1; i <= m; i++) marked[i] = FALSE;
