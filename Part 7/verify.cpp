@@ -39,19 +39,7 @@ e.setKey(4); b[2] = e;
 e.setKey(5); b[3] = e;
 e.setKey(7); b[4] = e;
 e.setKey(10); b[5] = e;
-e.setKey(12); b[6] = e;
-e.setKey(14); b[7] = e;
-e.setKey(15); b[8] = e;
-Element *c = new Element[10];
-e.setKey(2); c[1] = e;
-e.setKey(4); c[2] = e;
-e.setKey(5); c[3] = e;
-e.setKey(6); c[4] = e;
-e.setKey(11); c[5] = e;
-e.setKey(12); c[6] = e;
-e.setKey(14); c[7] = e;
-e.setKey(16); c[8] = e;
-e.setKey(17); c[9] = e;
+e.
 
 const int ten = 10, nine = 9;
 Verify2(b, c, ten, nine);
