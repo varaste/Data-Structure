@@ -23,22 +23,6 @@ int Snt n, const int k)
 void main()
 {
 Element *b = new Element[11];
-Element e;
-e.setKey(2); b[1] = e;
-e.setKey(4); b[2] = e;
-e.setKey(5); b[3] = e;
-e.stKey(7); b[4] = e;
-e.seKey(10); b[5] = e;
-e.seKey(12); b[6] = e;
-e.seKey(14); b[7] = e;
-e.setKey(15);b[8] = e;
-e.setKey(y(25); b[10] = e;
-e.setKey(10);
-cout << SeqSearch(b, 10, 10) << "\n";
-e.setKey(11);
-cout << SeqSearch(b, 11, 10) << "\n";
-
-Element *c = new Element[10];
 e.setKey(2); c[1] = e;
 e.setKey(4); c[2] = e;
 e.setKey(5); c[3] = e;
